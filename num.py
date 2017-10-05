@@ -1,3 +1,9 @@
-def main(num):
-	print(num)
-main(int(input()))
+def main(num, num2):
+	summ = summation(num, num2)
+	subb = substraction(num, num2)
+	return subb, summ
+
+def substraction(var1, var2):
+	return var1 - var2
+
+main(int(input()), int(input()))
