@@ -6,4 +6,6 @@ def main(num, num2):
 def substraction(var1, var2):
 	return var1 - var2
 
+def summation(n1, n2):
+	return n1 + n2
 main(int(input()), int(input()))
