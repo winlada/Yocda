@@ -8,4 +8,7 @@ def substraction(var1, var2):
 
 def summation(n1, n2):
 	return n1 + n2
+
+def sample():
+	print("Hello World")
 main(int(input()), int(input()))
