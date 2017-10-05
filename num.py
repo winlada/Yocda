@@ -10,5 +10,6 @@ def summation(n1, n2):
 	return n1 + n2
 
 def sample():
+	print("wow wow")
 	print("Hello World")
 main(int(input()), int(input()))
